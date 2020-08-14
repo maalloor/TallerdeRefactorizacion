@@ -9,10 +9,11 @@ public class Profesor {
     public int edad;
     public String direccion;
     public String telefono;
-    public InformacionAdicionalProfesor info;
     public ArrayList<Paralelo> paralelos;
+    public String facultad;
+    public int aniosdeTrabajo;
+    public double BonoFijo;
     
-
     public Profesor(String codigo, String nombre, String apellido, String facultad, int edad, String direccion, String telefono) {
         this.codigo = codigo;
         this.nombre = nombre;
